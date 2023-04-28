@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="845" height="909" viewBox="0 0 845 909">
+  <defs>
+    <filter id="Rectangle_17871" x="0" y="0" width="845" height="909" filterUnits="userSpaceOnUse">
+      <feOffset dx="-11" dy="35" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_17872" x="6" y="520" width="610" height="178" filterUnits="userSpaceOnUse">
+      <feOffset dx="-11" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_17874" x="120.5" y="662.5" width="635" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_69856" data-name="Group 69856" transform="translate(-957.5 -5374.5)">
+    <g transform="matrix(1, 0, 0, 1, 957.5, 5374.5)" filter="url(#Rectangle_17871)">
+      <rect id="Rectangle_17871-2" data-name="Rectangle 17871" width="548" height="612" rx="12" transform="translate(159.5 113.5)" fill="#fff"/>
+    </g>
+    <text id="Create_compaign" data-name="Create compaign" transform="translate(1147 5527)" fill="#333" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Create compaign</tspan></text>
+    <text id="Send_to:" data-name="Send to:" transform="translate(1147 5666)" fill="#333" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Send to:</tspan></text>
+    <path id="Icon_material-cancel" data-name="Icon material-cancel" d="M13.91,3A10.91,10.91,0,1,0,24.82,13.91,10.9,10.9,0,0,0,13.91,3Zm5.455,14.826-1.538,1.538L13.91,15.448,9.993,19.365,8.455,17.826l3.917-3.917L8.455,9.993,9.993,8.455l3.917,3.917,3.917-3.917,1.538,1.538L15.448,13.91Z" transform="translate(1611.181 5507)" fill="#8e8e8e"/>
+    <line id="Line_559" data-name="Line 559" x1="548" transform="translate(1117.5 5551.456)" fill="none" stroke="#707070" stroke-width="1" opacity="0.18"/>
+    <line id="Line_560" data-name="Line 560" x1="548" transform="translate(1117.5 5631)" fill="none" stroke="#707070" stroke-width="1" opacity="0.18"/>
+    <line id="Line_561" data-name="Line 561" x1="548" transform="translate(1117.5 5747.456)" fill="none" stroke="#707070" stroke-width="1" opacity="0.18"/>
+    <line id="Line_562" data-name="Line 562" x1="548" transform="translate(1117.5 5810.544)" fill="none" stroke="#707070" stroke-width="1" opacity="0.18"/>
+    <line id="Line_563" data-name="Line 563" x1="548" transform="translate(1117.5 5872.544)" fill="none" stroke="#707070" stroke-width="1" opacity="0.18"/>
+    <g transform="matrix(1, 0, 0, 1, 957.5, 5374.5)" filter="url(#Rectangle_17872)">
+      <rect id="Rectangle_17872-2" data-name="Rectangle 17872" width="535" height="103" rx="6" transform="translate(54.5 540.5)" fill="#f1f1f1"/>
+    </g>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_inviumyllajskm_amkshs_makai_amakia_ssoql...See_More" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviumyllajskm amkshs makai amakia ssoql...See More" transform="translate(1035 5963)" fill="#ff8308" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="13" fill="#000">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </tspan><tspan x="0" y="31" fill="#000">tempor inviumyllajskm amkshs makai amakia ssoql...</tspan><tspan y="31" fill="#ff8308">See More</tspan></text>
+    <g id="Rectangle_17875" data-name="Rectangle 17875" transform="translate(1147 5571)" fill="none" stroke="rgba(112,112,112,0.24)" stroke-width="1">
+      <rect width="489" height="39" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="488" height="38" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_17876" data-name="Rectangle 17876" transform="translate(1147 5684)" fill="none" stroke="rgba(112,112,112,0.24)" stroke-width="1">
+      <rect width="489" height="39" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="488" height="38" rx="4.5" fill="none"/>
+    </g>
+    <text id="Compaign_title" data-name="Compaign title" transform="translate(1210 5595)" fill="#949494" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-44.778" y="0">Compaign title</tspan></text>
+    <text id="Select" transform="translate(1183 5708)" fill="#949494" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-18.264" y="0">Select</tspan></text>
+    <text id="Total_Offer_Amount" data-name="Total Offer Amount" transform="translate(1147 5783)" fill="#1e1e1e" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Total Offer Amount</tspan></text>
+    <g id="Group_69855" data-name="Group 69855" transform="translate(1548.176 5762.894)">
+      <g id="Rectangle_17746" data-name="Rectangle 17746" transform="translate(0.824 0.106)" fill="#fff" stroke="#c9c9c9" stroke-width="1">
+        <rect width="87" height="30" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="86" height="29" rx="2.5" fill="none"/>
+      </g>
+      <text id="AED_25.1" data-name="AED 25.1" transform="translate(20.824 20.106)" fill="#c9c9c9" font-size="12" font-family="DMSans-Regular, DM Sans"><tspan x="0" y="0">AED 25.1</tspan></text>
+    </g>
+    <text id="Home_Services" data-name="Home Services" transform="translate(1147 5849.088)" fill="#1e1e1e" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Home Services</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 957.5, 5374.5)" filter="url(#Rectangle_17874)">
+      <rect id="Rectangle_17874-2" data-name="Rectangle 17874" width="575" height="65" rx="8" transform="translate(146.5 682.5)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_17746-2" data-name="Rectangle 17746" width="132" height="36" rx="5" transform="translate(1521 6072)" fill="#ff8308"/>
+    <text id="Send_Compaign" data-name="Send Compaign" transform="translate(1538 6094)" fill="#fff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Send Compaign</tspan></text>
+    <text id="Cancel" transform="translate(1130 6095)" fill="#949494" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Cancel</tspan></text>
+    <path id="Path_58340" data-name="Path 58340" d="M34.727,7H12.909a10.909,10.909,0,1,0,0,21.818H34.727A10.909,10.909,0,1,0,34.727,7Zm0,17.454a6.545,6.545,0,1,1,6.545-6.545A6.537,6.537,0,0,1,34.727,24.454Z" transform="translate(1590.364 5826.088)" fill="#ff8308"/>
+    <g id="Rectangle_17877" data-name="Rectangle 17877" transform="translate(1147 5723)" fill="#fff" stroke="rgba(112,112,112,0.24)" stroke-width="1">
+      <rect width="489" height="167" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="488" height="166" rx="4.5" fill="none"/>
+    </g>
+    <text id="All_customers" data-name="All customers" transform="translate(1165 5751)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">All customers</tspan></text>
+    <text id="Selected_customers" data-name="Selected customers" transform="translate(1165 5775)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Selected customers</tspan></text>
+    <text id="All_team_members" data-name="All team members" transform="translate(1165 5799)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">All team members</tspan></text>
+    <text id="Selected_team_members" data-name="Selected team members" transform="translate(1165 5823)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Selected team members</tspan></text>
+    <text id="Enter_number_manually" data-name="Enter number manually" transform="translate(1165 5847)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Enter number manually</tspan></text>
+    <text id="Filtered_customers_by_car_make_model" data-name="Filtered customers by car make/model" transform="translate(1165 5871)" fill="#1c1c1c" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Filtered customers by car make/model</tspan></text>
+    <text id="Message:" transform="translate(1035 5949)" fill="#333" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Message:</tspan></text>
+  </g>
+</svg>

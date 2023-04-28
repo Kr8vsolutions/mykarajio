@@ -1,0 +1,927 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Georama', sans-serif;
+}
+
+header .container{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+header .login-btn{
+    font-size: 16px;
+    color: #ff8308;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header .login-btn:hover {
+    color: #464646
+}
+
+header .request-for-demo-btn{
+	padding: 17px 35px;
+    background: #ff8308;
+    display: inline-block;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+header .request-for-demo-btn:hover{
+    background: #464646
+}
+
+.homepage-hero{
+	background: #fff1e3;
+	padding: 70px 0px;
+}
+
+.homepage-hero .container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage-hero .hero-heading{
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+
+.homepage-hero .hero-sub-heading{
+	font-size: 15px;
+    color: #101010;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.homepage-hero .hero-btns{
+	padding: 22px 0
+}
+
+.homepage-hero .demo-btn{
+	padding: 15px 35px;
+    background: transparent;
+    display: inline-block;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #ff8308;
+    font-size: 15px;
+    border: 1px solid #ff8308;
+}
+
+.homepage-hero .demo-btn:hover{
+    background: #ff8308;
+    color: #fff;
+}
+
+.homepage-hero .subscribe-btn{
+	padding: 15px 35px;
+    background: #ff8308;
+    display: inline-block;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 7px;
+    font-size: 15px
+}
+
+.homepage-hero .subscribe-btn:hover{
+    background: #464646
+}
+
+.homepage-about{
+	background: #fbfbfb;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-about .container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage-about .about-heading{
+	margin-bottom: 35px;
+}
+
+.homepage-about .about-sub-heading{
+	line-height: 30px;
+	font-size: 15px;
+	color: #101010;
+	letter-spacing: 0.5px;
+}
+
+.homepage-features{
+	background: #fbfbfb;
+    height: 800px;
+    overflow: hidden;
+}
+
+.homepage-features .container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.homepage-features .features-heading{
+	margin-bottom: 35px;
+}
+
+.homepage-features .features-sub-heading{
+	line-height: 21px;
+	font-size: 15px;
+	color: #4e4d4d;
+	letter-spacing: 0.4px;
+}
+
+.homepage-features .features-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features .features-row-left{
+	flex: 0 0 25%;
+    width: auto;
+    text-align: center;
+}
+
+.homepage-features .features-row-left h2{
+	margin-bottom: 20px
+}
+
+.homepage-features .features-row-img{
+	flex: 0 0 75%;
+    width: auto;
+}
+
+.homepage-features .features-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-2{
+	background: #fbfbfb;
+    height: 800px;
+    overflow: hidden;
+}
+
+.homepage-features-2 .features-2-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-2 .features-2-row-right{
+	flex: 0 0 50%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-2 .features-2-row-right h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-2 .features-2-row-right p{
+	text-align: left
+}
+
+.homepage-features-2 .features-2-row-img{
+	flex: 0 0 50%;
+    width: auto;
+}
+
+.homepage-features-2 .features-2-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-3{
+	background: #fbfbfb;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.homepage-features-3 .features-3-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-3 .features-3-row-left{
+	flex: 0 0 50%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-3 .features-3-row-left h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-3 .features-3-row-left p{
+	text-align: left
+}
+
+.homepage-features-3 .features-3-row-img{
+	flex: 0 0 50%;
+    width: auto;
+}
+
+.homepage-features-3 .features-3-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-4{
+	background: #fbfbfb;
+    height: 800px;
+    overflow: hidden;
+}
+
+.homepage-features-4 .features-4-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-4 .features-4-row-right{
+	flex: 0 0 50%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-4 .features-4-row-right h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-4 .features-4-row-right p{
+	text-align: left
+}
+
+.homepage-features-4 .features-4-row-img{
+	flex: 0 0 50%;
+    width: auto;
+}
+
+.homepage-features-4 .features-4-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-5{
+	background: #fbfbfb;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.homepage-features-5 .features-5-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-5 .features-5-row-left{
+	flex: 0 0 45%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-5 .features-5-row-left h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-5 .features-5-row-left p{
+	text-align: left
+}
+
+.homepage-features-5 .features-5-row-img{
+	flex: 0 0 55%;
+    width: auto;
+}
+
+.homepage-features-5 .features-5-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-6{
+	background: #fbfbfb;
+    height: 800px;
+    overflow: hidden;
+}
+
+.homepage-features-6 .features-6-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-6 .features-6-row-right{
+	flex: 0 0 50%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-6 .features-6-row-right h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-6 .features-6-row-right p{
+	text-align: left
+}
+
+.homepage-features-6 .features-6-row-img{
+	flex: 0 0 50%;
+    width: auto;
+}
+
+.homepage-features-6 .features-6-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-features-7{
+	background: #fbfbfb;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.homepage-features-7 .features-7-row .container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.homepage-features-7 .features-7-row-left{
+	flex: 0 0 50%;
+    width: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+
+.homepage-features-7 .features-7-row-left h2{
+	margin-bottom: 20px;
+	text-align: left
+}
+
+.homepage-features-7 .features-7-row-left p{
+	text-align: left
+}
+
+.homepage-features-7 .features-7-row-img{
+	flex: 0 0 50%;
+    width: auto;
+}
+
+.homepage-features-7 .features-7-row-img img{
+	object-fit: contain;
+    width: 100%
+}
+
+.homepage-request-for-demo{
+	background: #fff0e3;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-request-for-demo .container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.homepage-request-for-demo .get-a-demo-btn{
+	display: inline-block;
+    padding: 14px 22px;
+    color: #ff8308;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: 1px solid #ff8308;
+}
+
+.homepage-request-for-demo .get-a-demo-btn:hover{
+    background: #ff8308;
+    color: #fff;
+}
+
+footer{
+	background: #fbfbfb;
+	padding: 60px 0px 150px
+}
+
+footer .container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+footer .container .col{
+	flex: 0 0 25%;
+}
+
+footer .container .col nav{
+	padding: 22px 0px;
+}
+
+footer .container .col nav > ul > li{
+	list-style-type: none;
+	font-size: 14px;
+	padding-bottom: 12px;
+}
+
+footer .container .col nav > ul > li > a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer .container .col .company-desc{
+	font-size: 14px;
+	margin-top: 20px
+}
+
+footer .container .col .payment-method-logo{
+	width: 75%;
+    margin-top: 30px;
+}
+
+/***** Choose your plan *****/
+.choose-your-plan{
+	background: #fdfdfd;
+    text-align: center;
+	padding: 70px 0px
+}
+
+.choose-your-plan-period{
+	background: #ff8308;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#choose-your-plan-period-switch{
+    display: inline-block;
+    margin: 0px;
+    font-size: 13px;
+    color: #fe8208;
+    position: relative;
+}
+
+#choose-your-plan-period-switch-label{
+    margin: 0px;
+    width: 155px;
+    height: 33px;
+    background: #fff1e3;
+    border-radius: 26px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+#choose-your-plan-period-switch-label:before{
+    content: attr(data-on);
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    top: 10px;
+    right: 22px
+}
+
+#choose-your-plan-period-switch-label:after{
+    content: attr(data-off);
+    width: 85px;
+    height: 20px;
+    background: #fe8208;
+    border-radius: 26px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 5px 0px;
+    color: white;
+}
+
+#choose-your-plan-period-switch-input{
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin: 0px;
+}
+
+#choose-your-plan-period-switch-input:checked + #choose-your-plan-period-switch-label{
+    background: #fff1e3;
+    color: #fe8208;
+}
+
+#choose-your-plan-period-switch-input:checked + #choose-your-plan-period-switch-label:after{
+    content: attr(data-on);
+    left: 68px;
+    background: #fe8208;
+}
+
+#choose-your-plan-period-switch-input:checked + #choose-your-plan-period-switch-label:before{
+    content: attr(data-off);
+    right: auto;
+    left: 14px;
+}
+
+.choose-your-plan-cards .row{
+	display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.choose-your-plan-btns{
+	margin: 25px 0px 65px
+}
+
+.choose-your-plan-cards .row .card{
+	flex: 0 0 32.555556%;
+	width: auto;
+	-webkit-box-shadow: 0px 6px 39px -23px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 6px 39px -23px rgba(0,0,0,0.57);
+	box-shadow: 0px 6px 39px -23px rgba(0,0,0,0.57);
+	background-color: #fff;
+    padding: 30px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.choose-your-plan-cards .row .card .choose-your-plan-icon{
+	background: #f1f6ff;
+    padding: 11px 10px;
+    border-radius: 50%;
+    width: 30%;
+    margin: 0px auto 15px;
+}
+
+.choose-your-plan-cards .row .card .choose-your-plan-price{
+	margin: 10px 0px 25px;
+	color: #ff8308;
+}
+
+.choose-your-plan-cards .row .card .choose-your-plan-feature{
+	color: #646464;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 12px;
+    padding-top: 3px;
+}
+
+#choose-your-plan-cards-2{
+	display: none;
+}
+
+.choose-your-plan-cards .row .choose-your-plan-2{
+	background: #fe8208;
+	color: #fff;
+}
+
+.choose-your-plan-cards .row .choose-your-plan-2 .choose-your-plan-price{
+	color: #fff;
+}
+
+.choose-your-plan-cards .row .choose-your-plan-2 .choose-your-plan-feature{
+	color: #fff;
+}
+
+.choose-your-plan-cards .row .card .fa-check{
+	color: #0aa907;
+}
+
+.choose-your-plan-cards .row .choose-your-plan-2 .fa-check{
+	color: #fff;
+	font-size: 12px;
+}
+
+.choose-your-plan-cards .row .choose-your-plan-3 .choose-your-plan-icon{
+	background: #ffeede;
+}
+
+/***** Create premium account *****/
+#create-garage-account-step-1,
+#create-garage-account-step-2,
+#create-garage-account-step-3{
+    background: #fdfdfd;
+    text-align: center;
+    display: none;
+    padding: 70px 0px
+}
+
+#create-garage-account-step-1 .sub-heading{
+    margin: 15px 0px 25px;
+    letter-spacing: 0.2px;
+    color: #666666;
+}
+
+#create-garage-account-step-1-form,
+#create-garage-account-step-2-form{
+    width: 25%;
+    margin: 0 auto;
+}
+
+#create-garage-account-step-1-form input,
+#create-garage-account-step-2-form input,
+#create-garage-account-step-1-form textarea,
+#create-garage-account-step-2-form textarea,
+#create-garage-account-step-2-form select{
+    width: 100%;
+    margin-bottom: 7px;
+    padding: 8px 10px;
+    font-size: 12px;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+}
+
+#create-garage-account-step-1-form input::placeholder,
+#create-garage-account-step-2-form input::placeholder,
+#create-garage-account-step-1-form textarea::placeholder,
+#create-garage-account-step-2-form textarea::placeholder {
+    color: #c5c5c5;
+    letter-spacing: 0.2px;
+}
+
+#create-garage-account-step-1-form button,
+#create-garage-account-step-2-form button,
+#create-garage-account-step-3-payment-methods button{
+    width: 100%;
+    background: #ff8308;
+    color: #fff;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#create-garage-account-step-1-form button:hover,
+#create-garage-account-step-2-form button:hover,
+#create-garage-account-step-3-payment-methods button:hover{
+    cursor: pointer;
+    background: #000;
+}
+
+#create-garage-account-step-2-form button{
+    margin-top: 25px;
+}
+
+#create-garage-account-step-2-form label{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+#create-garage-account-step-2 .heading{
+    margin-bottom: 40px;
+}
+
+#create-garage-account-step-2-form-gmap{
+    height: 250px
+}
+
+#create-garage-account-step-2-form .multi-select-button{
+    max-width: 100%;
+    text-align: left;
+    font-size: 0.75em;
+    padding: 0.75em 1em;
+    border: 1px solid #e9e9e9;
+}
+
+#create-garage-account-step-2-form .multi-select-container{
+    margin-bottom: 7px;
+}
+
+#create-garage-account-step-3-table{
+    width: 75%;
+    margin: 30px auto;
+}
+
+#create-garage-account-step-3-table thead > tr > th{
+    border-bottom: 1px solid #ebeaea;
+}
+
+#create-garage-account-step-3-table thead > tr > th,
+#create-garage-account-step-3-table tbody > tr > td{
+    padding: 10px 0px;
+    font-size: 14px
+}
+
+#create-garage-account-step-3-payment-methods form{
+    width: 75%;
+    margin: 50px auto 0px;
+}
+
+#create-garage-account-step-3-payment-methods .payment-methods-container{
+    display: flex
+}
+
+#create-garage-account-step-3-payment-methods .payment-method-row{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 25px;
+}
+
+#create-garage-account-step-3-payment-methods .payment-method-left{
+    display: flex;
+}
+
+#create-garage-account-step-3-payment-methods .payment-method-name{
+    margin-left: 10px;
+}
+
+#create-garage-account-step-3-payment-methods .payment-method-desc{
+    font-size: 12px;
+    color: #898989;
+}
+
+#create-garage-account-step-3-payment-methods .method-logo{
+    margin-left: 10px;
+}
+
+#create-garage-account-step-3-payment-methods button{
+    width: 20%;
+    margin-top: 35px
+}
+
+#create-garage-account-step-1 .input-errors,
+#create-garage-account-step-2 .input-errors,
+#create-garage-account-step-3 .input-errors{
+    display: none;
+    font-size: 12px;
+    color: #df4b3c;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-left: 5px
+}
+
+@media screen and (max-width: 480px){
+    .homepage-hero .hero-heading {
+        font-size: 26px;
+    }
+
+    .homepage-hero .hero-sub-heading {
+        font-size: 14px
+    }
+
+    .homepage-hero .subscribe-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .homepage-hero .demo-btn {
+        padding: 12px 20px;
+        font-size: 14px
+    }
+
+    header .request-for-demo-btn {
+        padding: 12px 18px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    header .main-logo a img {
+        width: 125px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    header .login-btn {
+        font-size: 14px
+    }
+
+
+    .homepage-about,
+    .homepage-features-1,
+    .homepage-features-2,
+    .homepage-features-3,
+    .homepage-features-4,
+    .homepage-features-5,
+    .homepage-features-6,
+    .homepage-features-7 {
+        height: 100%;
+        padding: 60px 0px;
+    }
+
+    .homepage-about .about-sub-heading {
+        line-height: 22px
+    }
+
+    .homepage-features .features-row .container {
+        flex-direction: column;
+    }
+
+    .homepage-features .features-row-img img {
+        height: 100%;
+    }
+
+    .homepage-features-2 .features-2-row .container {
+        flex-direction: column-reverse
+    }
+
+    .homepage-features-2 .features-2-row-img img {
+        height: 100%;
+    }
+
+    .homepage-features-3 .features-3-row .container {
+        flex-direction: column;
+    }
+
+    .homepage-features-3 .features-3-row-img img {
+        height: 100%;
+    }
+
+    .homepage-features-4 .features-4-row .container,
+    .homepage-features-6 .features-6-row .container {
+        flex-direction: column-reverse
+    }
+
+    .homepage-features-4 .features-4-row-img img,
+    .homepage-features-6 .features-6-row-img img {
+        height: 100%;
+    }
+
+    .homepage-features-5 .features-5-row .container,
+    .homepage-features-7 .features-7-row .container {
+        flex-direction: column;
+    }
+
+    .homepage-features-5 .features-5-row-img img,
+    .homepage-features-7 .features-7-row-img img {
+        height: 100%;
+    }
+
+    footer .container {
+        display: block
+    }
+
+    footer .container .col {
+        margin-bottom: 30px;
+    }
+}
